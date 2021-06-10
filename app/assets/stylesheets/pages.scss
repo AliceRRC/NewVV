@@ -13,6 +13,10 @@ h1 {
   font-size: 80px;
 }
 
+.container {
+  padding: 0px;
+}
+
 .nav-link {
   color: white;
 }
@@ -58,4 +62,32 @@ h1 {
   height: 80%;
   margin-left: 10px;
   margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+ text-decoration: none;
+ color: lightgray;
+ font-size: 20px;
+}
+
+.list-pages {
+  list-style: none;
+  padding: 0;
+}
+
+.space-list {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  box-shadow: 0px 3px white;
 }
