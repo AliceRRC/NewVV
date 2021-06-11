@@ -5,14 +5,43 @@
         <h1 class="text-center"><span id="title"></span></h1>
         <h2 class="text-center">A SUA REDE HUMANITÁRIA</h2>
       </div>
-      <div class="col-12 col-lg-2 mt-4">
+      <div class="col-12 col-lg-2 mt-4" id="list-itens">
         <ul class="list-pages">
           <li class="space-list"><%= link_to "Sobre a VV", style: "color: white;" %></li>
-          <li class="space-list"><%= link_to "Sobre a VV", style: "color: white;" %></li>
-          <li class="space-list"><%= link_to "Sobre a VV", style: "color: white;" %></li>
+          <li class="space-list"><%= link_to "Destinos", style: "color: white;" %></li>
+          <li class="space-list"><%= link_to "Programas", style: "color: white;" %></li>
+          <li class="space-list"><%= link_to "VV Academy", style: "color: white;" %></li>
+          <li class="space-list"><%= link_to "Calendário VV", style: "color: white;" %></li>
+          <li class="space-list"><%= link_to "Blog & Histórias", style: "color: white;" %></li>
         </ul>
       </div>
       <div class="col-12 col-lg-9 mt-4 mr-5 pr-5" id="earth_div">
+      </div>
+      <div class="col-12 col-lg-7 mt-5">
+        <h3>Parceiros</h3>
+      </div>
+      <div class="col-12 col-lg-10 ml-5 pl-5 partner-img">
+        <ul class="list-img">
+          <li>
+            <%= link_to "https://refugio343.org/", target: :_blank do %>
+            <%= image_tag "Refúgio343.png" %></li>
+            <% end %>
+          <li>
+            <%= link_to "https://refugio343.org/", target: :_blank do %>
+            <%= image_tag "LTB.png" %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to "https://refugio343.org/", target: :_blank do %>
+            <%= image_tag "logo-amp.png" %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to "https://www.livingpositivekenya.org/", target: :_blank do %>
+            <%= image_tag "living-positive.png" %>
+            <% end %>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
