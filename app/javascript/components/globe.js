@@ -4,7 +4,7 @@
 function initializeGlobe() {
     // const options = { zoom: 3, position: [47.19537,8.524404] };
     const earth = new WE.map('earth_div');
-    earth.setView([41.40, 2.17], 2);
+    earth.setView([-14.24, -51.92], 2);
     WE.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
           attribution: '© OpenStreetMap contributors',
           // bounds: [[-85, -180], [85, 180]],
@@ -21,8 +21,8 @@ function initializeGlobe() {
             requestAnimationFrame(animate);
           });
 
-    const marker = WE.marker([51.5, -0.09]).addTo(earth);
-    marker.bindPopup("<img src='assets/refugio343.jpg' width="150" height="100"></img>", {maxWidth: 300, closeButton: true}).openPopup();
+    const marker = WE.marker([-14.24, -51.92]).addTo(earth);
+    marker.bindPopup("<img src='assets/Goias.JPG' class='img-fluid'></img><br>I am a popup.<br />", {maxWidth: 150, closeButton: true});
     marker.setLatLng([-14.24, -51.92]);
 
     // const markerCustom = WE.marker([50, -9], 'globe.png', 100, 24).addTo(earth);

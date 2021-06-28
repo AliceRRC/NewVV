@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
       } else {
         document.getElementById('navbar_top').classList.remove('fixed-top');
          // remove padding top from body
-        document.body.style.paddingTop = '10';
+        document.body.style.paddingTop = '0';
       }
       });
 });
